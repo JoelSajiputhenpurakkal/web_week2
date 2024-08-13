@@ -1,0 +1,95 @@
+body {
+    background-color: #25274D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+
+.container {
+    text-align: center;
+}
+
+.class1 {
+    color: #FFFFFF;
+    background: #464866;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+input[type="number"] {
+    padding: 10px;
+    margin: 15px 0;
+    border: 1px solid #AAABB8;
+    border-radius: 5px;
+    width: 80%;
+    font-size: 1em;
+    color: #25274D;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #AAABB8;
+    color: #25274D;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ffffff;
+}
+
+#msg {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.start-button {
+    padding: 10px 20px;
+    background-color: #AAABB8;
+    color: #25274D;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.start-button:hover {
+    background-color: #ffffff;
+}
+
+
+.correct-guess-animation {
+    animation: correctGuess 1s ease-in-out;
+}
+
+@keyframes correctGuess {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(5.2);
+        opacity: 0.8;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
