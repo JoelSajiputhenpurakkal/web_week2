@@ -1,1 +1,3 @@
 
+Recipe Finder is a React.js application that allows users to search for recipes using the Edamam API. Users can input keywords to discover recipes, view a list with images, titles, and calorie information, and access detailed summaries of each recipe, including ingredients and a link to the full recipe online. The app features an elegant, modern design with interactive elements for a seamless user experience.
+
